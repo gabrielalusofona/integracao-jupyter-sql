@@ -15,4 +15,5 @@ services:
       POSTGRES_USER: "postgres"
     volumes:
       - /tmp/pg-data/:/var/lib/postgresql/data/
+      - ./data/imdb_lecture.sql:/data/imdb_lecture.sql
 
